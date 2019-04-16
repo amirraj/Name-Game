@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Name Game</string>
+
+    <string-array name="mode">
+        <item>"Classical"</item>
+        <item>"Rapid Fire"</item>
+    </string-array>
+
+    <string-array name="difficulty">
+        <item>"Easy"</item>
+        <item>"Medium"</item>
+        <item>"Hard"</item>
+    </string-array>
+
+    <string-array name="letter">
+        <item>"Random"</item>
+        <item>"Custom"</item>
+        <item>"Independent"</item>
+    </string-array>
+</resources>

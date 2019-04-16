@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aspire.namegame.HighScoreActivity">
+
+    <Button
+        android:id="@+id/ShowGameTable"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:layout_marginTop="72dp"
+        android:text="Game Table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ShowPlayertable"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="98dp"
+        android:layout_marginTop="94dp"
+        android:text="Player Table"
+        app:layout_constraintBottom_toBottomOf="@+id/ShowScoretable"
+        app:layout_constraintStart_toStartOf="@+id/ShowGameTable"
+        app:layout_constraintTop_toTopOf="@+id/ShowGameTable" />
+
+    <Button
+        android:id="@+id/ShowScoretable"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="137dp"
+        android:text="Score"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ShowPlayertable" />
+</android.support.constraint.ConstraintLayout>
